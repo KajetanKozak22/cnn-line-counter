@@ -1,0 +1,9 @@
+torch (PyTorch) – A core library used across both scripts. It handles the neural network architecture (nn.Module), loss function (MSELoss), optimizer (Adam), data loading (DataLoader), and the model inference (prediction) itself.
+
+opencv-python (imported as cv2) – Used for all image manipulation tasks: loading images (imread), applying the median noise filter (medianBlur), and handling color conversions for the UI preview.
+
+pandas (imported as pd) – Responsible for quickly loading, reading, and parsing the labels.csv dataset file.
+
+numpy (imported as np) – Processes the loaded images into numerical arrays, which are then converted into PyTorch tensors for the neural network.
+
+pillow (imported as PIL) – Serves as an intermediary layer to prepare images for display within the GUI (converting the raw image format into a format compatible with Tkinter).
